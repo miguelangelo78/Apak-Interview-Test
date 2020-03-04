@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "7b1222f2-446d-4f9a-91ec-41ed34c5dfea",
+		"name": "Apak Coding Test - Simple Server Application (Collection)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get User 1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:3299/v1/users/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "3299",
+					"path": [
+						"v1",
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Name\":\"Miguel\",\n\t\"Username\":\"miguelsantos\",\n\t\"Interests\":[\"Coding\",\"Gaming\",\"Music\",\"Films\",\"Books\"],\n\t\"UserRequestInfo\":\n\t{\n\t\t\"Date\":\"03/03/20\",\n\t\t\"Time\":\"17:30:00\",\n\t\t\"DeviceName\":\"Windows\",\n\t\t\"IpAddress\":\"86.143.137.68\"\n\t}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:3299/v1/users",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "3299",
+					"path": [
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User 1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:3299/v1/users/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "3299",
+					"path": [
+						"v1",
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lookup User 1 Location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:3299/v1/users/1/lookup",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "3299",
+					"path": [
+						"v1",
+						"users",
+						"1",
+						"lookup"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

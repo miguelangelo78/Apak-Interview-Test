@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApakQuestion1SimpleServerApplication", "ApakQuestion1SimpleServerApplication\ApakQuestion1SimpleServerApplication.csproj", "{0489C3F2-733D-4649-A9BC-9FCB1356DB06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0489C3F2-733D-4649-A9BC-9FCB1356DB06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0489C3F2-733D-4649-A9BC-9FCB1356DB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0489C3F2-733D-4649-A9BC-9FCB1356DB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0489C3F2-733D-4649-A9BC-9FCB1356DB06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51159EB3-3C4F-4432-92F7-D5259ECD51DC}
+	EndGlobalSection
+EndGlobal
